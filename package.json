@@ -1,0 +1,43 @@
+{
+  "name": "@run1t/fildji",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "“Run1t” <“reunanln@gmail.com”>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "bin": {
+    "fildji": "bin/fildji.js"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.1.1",
+    "mysql": "^2.13.0",
+    "pg": "^7.3.0",
+    "node-fetch": "^1.7.3",
+    "reflect-metadata": "^0.1.10",
+    "ts-simple-ast": "^0.72.2",
+    "typeorm": "^0.1.0",
+    "typescript-ioc": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-logger": "^2.0.2",
+    "@types/koa-router": "^7.0.22",
+    "@types/inquirer": "0.0.35",
+    "@types/node": "^7.0.43",
+    "@types/node-fetch": "^1.6.7",
+    "clime": "^0.5.6",
+    "inquirer": "^3.3.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.3.2"
+  }
+}
